@@ -13,5 +13,5 @@ class BlogResponse(BaseModel):
     title: str
     content: str
 
-    class config:
+    class Config:
         from_attributes = True
